@@ -24,6 +24,12 @@
             <version>5.4.0</version>
             <scope>test</scope>
         </dependency>
+
+        <dependency>
+            <groupId>${operations.groupId}</groupId>
+            <artifactId>operations</artifactId>
+            <version>${operations.version}</version>
+        </dependency>
     </dependencies>
 
 </project>

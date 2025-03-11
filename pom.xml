@@ -18,6 +18,11 @@
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+        <core.groupId>org.example</core.groupId>
+        <core.version>1.0.0</core.version>
+        <operations.groupId>org.example</operations.groupId>
+        <operations.version>1.0.0</operations.version>
     </properties>
 
     <dependencies>
