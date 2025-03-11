@@ -14,6 +14,28 @@
         <module>operations</module>
     </modules>
 
+    <profiles>
+        <profile>
+            <id>maven-repository</id>
+            <repositories>
+                <repository>
+                    <id>central</id>
+                    <url>https://repo.maven.apache.org/maven2</url>
+                </repository>
+            </repositories>
+        </profile>
+        <profile>
+            <id>spring-repository</id>
+            <repositories>
+                <repository>
+                    <id>spring</id>
+                    <url>https://repo.spring.io/ui/packages</url>
+                </repository>
+            </repositories>
+        </profile>
+    </profiles>
+
+
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
@@ -25,14 +47,18 @@
         <operations.version>1.0.0</operations.version>
     </properties>
 
-    <dependencies>
-        <dependency>
-            <groupId>org.mockito</groupId>
-            <artifactId>mockito-core</artifactId>
-            <version>5.4.0</version>
-            <scope>test</scope>
-        </dependency>
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.mockito</groupId>
+                <artifactId>mockito-core</artifactId>
+                <version>5.4.0</version>
+                <scope>test</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
+    <dependencies>
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
