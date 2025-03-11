@@ -43,6 +43,7 @@
 
         <core.groupId>org.example</core.groupId>
         <core.version>1.0.0</core.version>
+
         <operations.groupId>org.example</operations.groupId>
         <operations.version>1.0.0</operations.version>
     </properties>

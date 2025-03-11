@@ -23,11 +23,6 @@
             <artifactId>mockito-core</artifactId>
         </dependency>
 
-        <dependency>
-            <groupId>${operations.groupId}</groupId>
-            <artifactId>operations</artifactId>
-            <version>${operations.version}</version>
-        </dependency>
     </dependencies>
 
 </project>

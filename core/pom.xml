@@ -28,12 +28,6 @@
             <groupId>org.mockito</groupId>
             <artifactId>mockito-core</artifactId>
         </dependency>
-
-        <dependency>
-            <groupId>${core.groupId}</groupId>
-            <artifactId>core</artifactId>
-            <version>${core.version}</version>
-        </dependency>
     </dependencies>
 
 </project>
